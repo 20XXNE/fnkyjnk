@@ -1,0 +1,10 @@
+@font-face{
+	font-family: "Georgia";
+	src: local("Georgia"),
+	local("Georgia Regular"),
+	src:url("./css/georgia.ttf");
+}
+body{
+	font-family: "Georgia";
+}
+
