@@ -1,0 +1,152 @@
+html{
+    -webkit-font-smoothing: anitaliased;
+}
+body{
+	font-family: "Quicksand";
+    font-weight: 500;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#container{
+	min-height: 100%;
+	margin: 0 auto;
+	width: 100%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    padding: -20px;
+}
+li{
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	margin: 0;
+	background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+}
+#intro{
+    margin-left: 50px;
+}
+#intro p{
+    width: 45%
+}
+.social{
+    text-align: right;
+	position: relative;
+	bottom: 5px;
+}
+.social li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.social li a{
+    color: #312342;
+    -webkit-transition: color 0.5s; 
+    transition: color 0.5s;
+}
+.social li a:hover{
+    color: #3BA3D0;
+}
+#footer .social li a{
+    color: #312342;
+}
+.pages li a{
+    color: #312342;
+    -webkit-transition: color 0.5s; 
+    transition: color 0.5s;
+}
+.pages li a:hover{
+    color: #3BA3D0;
+}
+.pages{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        position: relative;
+        bottom: 45px;
+}
+.pages li{
+	display: inline-block;
+	margin-right: 100px;
+} 
+.pages li a{
+    color: #000000;   
+}
+.fa{
+	opacity: 0.3;
+	transition: opacity 0.4s;
+	display: inline-block;
+}
+.fa:hover{
+	opacity: 1;
+}
+#right{
+    float: right;
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+#left{
+    float: left;
+    width: 500px;
+    position: relative;
+    margin-left: 10px;
+    top: 400px;
+}
+#days{
+    width: 30%;
+    position: relative;
+    top: 1700px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    margin: 0 auto;
+    background-color: grey;
+    opacity: 0.6;
+    z-index: 1;
+}
+#galleria{ 
+    width: 20%; 
+    height: 15%; 
+    background: #000; 
+    float: right;
+    z-index: -1;
+    position: relative;
+	bottom: 100px;
+}
+#map{
+    position: relative;
+    top: 1500px;
+	float: left;
+	margin-left: 10px;
+	width: 80%;
+}
+.bg {
+  background: url('bg-blur.png') no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+#logo{
+    text-align: center;
+	position: relative;
+	top: 40px;	    
+}
+#map-descr{
+	text-align: center;
+	float: right;
+	font-size: 20px;
+}
