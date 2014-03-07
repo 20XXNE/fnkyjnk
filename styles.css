@@ -71,14 +71,14 @@ li{
 .pages{
         margin: 0 auto;
         text-align: center;
-        width: 80%;
         position: relative;
         bottom: 45px;
+		width: 80%;
 }
 .pages li{
 	display: inline-block;
-	margin-right: 100px;
-        bottom: 20px;
+	margin-right: 90px;
+    bottom: 20px;
 }
 .pages li a{
     color: #000000;   
@@ -87,12 +87,9 @@ li{
 	opacity: 0.3;
 	transition: opacity 0.4s;
 	display: inline-block;
-
-//	margin: 0.3em;
 	opacity: 0.3;
 	transition: opacity 0.4s;
 	display: inline-block;
-  //  color: #ffffff;
 }
 .fa:hover{
 	opacity: 1;
@@ -112,11 +109,11 @@ li{
 }
 #days{
     position: relative;
-    top: 1400px;
+    top: 1600px;
 	width: 30%;
 	height: 23px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 150px;
 	
 }
 #footer{
@@ -145,30 +142,17 @@ li{
 	margin-left: 10px;
 	width: 80%;
 }
-.bg {
-  background: url('bg-blur.png') no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 300%;
-  top: 0;
-  z-index: -1;
-  opacity: 0.9;
+#kathycrystal img{
+	width: 25%;
+	float: right;
+	position: relative;
+	bottom: 250px;
+	margin: 15px;
 }
 #logo{
     text-align: center;
 	position: relative;
 	top: 40px;	    
-}
-#map-descr{
-	text-align: center;
-	float: right;
-	font-size: 20px;
-//    top: 150px;
-}
-#map{
-    position: relative;
-    top: 1300px;
-	margin-left: 20px;
 }
 .bg {
   background: url('bg-blur.png') no-repeat;
@@ -184,17 +168,20 @@ li{
 #map-descr{
 	float: right;
 	position: relative;
-	bottom: 300px;
 }
 #gallery{
 	float: left;
 	text-align: left;
 	width: 500px;
 	margin-left: 20px;
+	position: relative;
+	top: 350px;
 }
 #contact{
 	position: relative;
 	float: right;
-	top: 1300px;
-	
+	top: 1400px;
+	margin: 0 auto;	
+}
+
 	
