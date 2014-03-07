@@ -116,9 +116,7 @@ li{
 	width: 30%;
 	height: 23px;
 	float: left;
-	
-}
-#days{
+	margin-left: 40px;
 	
 }
 #footer{
@@ -180,6 +178,8 @@ li{
   top: 0;
   z-index: -2;
   opacity: 0.85;
+  margin: 0 auto;
+  text-align: center;
 }
 #map-descr{
 	float: right;
@@ -191,3 +191,10 @@ li{
 	text-align: left;
 	width: 500px;
 	margin-left: 20px;
+}
+#contact{
+	position: relative;
+	float: right;
+	top: 1300px;
+	
+	
